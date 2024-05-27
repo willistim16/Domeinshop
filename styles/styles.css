@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -10,13 +11,25 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-
-
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+main {
+    text-align: center;
+    width: 1000px;
+    align-content: center;
+    margin-left: 300px;
+}
 
 /*////////////////////////
     2. Typography
@@ -29,21 +42,149 @@ Table of Contents:
 ////////////////////////*/
 
 
-
 /*///////////// 3.1 Header /////////////*/
+.groeperen-header {
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    text-align: center;
+    width: 1000px;
+    padding: 80px 0 200px 0;
+    margin-left: 300px;
+}
 
+h1 {
+    font-size: 75px;
+    font-weight: bold;
+    margin: 15px 0 15px 0;
+}
+.button-header-section {
+    margin: 12px;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    border: 4px solid black;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-left: -10px;
+    font-size: 10px;
+}
 
+.input-header {
+    margin: 12px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    text-align: left;
+    color: #1C2B32;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    margin-right: -10px;
+    padding: 13px;
+    width: 200px;
+}
 
+::placeholder {
+    color: black;
+}
+.domeinnaam-registreren {
+    color: #1C2B32;
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
 /*///////////// 3.2 Testimonial /////////////*/
 
-
-
 /*///////////// 3.3 Support /////////////*/
+h2 {
+    margin: 40px;
+    font-size: 20px;
+}
 
+blockquote {
+    position: relative;
+    text-align: left;
+    border: 2px white;
+    border-radius: 10px;
+    margin: 30px;
+    padding-top: 35px;
+    padding-left: 90px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    width: 700px;
+    margin-left: 180px;
+    margin-bottom: 40px;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    box-shadow: 2px 8px 10px rgb(137, 156, 160, 0.3),
+    -2px -2px 10px rgb(137, 156, 160, 0.3);
+}
 
+.quote {
+    position: absolute;
+    left: 60px;
+    top: 30px;
+    height: 20px;
+    width: 20px;
+}
 
+.jane-and-john {
+    position: relative;
+    left: 0;
+    height: 44px;
+    width: 44px;
+    margin-top: 20px;
+}
+#jane-cite {
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+#john-cite {
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.foto-callcenter {
+    align-content: center;
+    width: 700px;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 15px;
+    margin-bottom: 10px;
+}
+
+.hoofdstuk-2 {
+    font-size: 10px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.neem-contact-op {
+    color: white;
+    font-size: 10px;
+    background-color: black;
+    border-radius: 25px;
+    width: 120px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-right: 580px;
+}
 /*///////////// 3.4 Faq /////////////*/
-
+.header-vragen {
+    margin: 50px;
+}
 
 
 /*///////////// 3.5 Footer /////////////*/
+footer {
+
+}
