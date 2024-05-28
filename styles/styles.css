@@ -24,7 +24,7 @@ main {
     text-align: center;
     width: 1000px;
     align-content: center;
-    margin-left: 300px;
+    margin: 0 auto;
 }
 /*////////////////////////
     2. Typography
@@ -48,7 +48,6 @@ body {
     position: relative;
     text-align: center;
     max-width: 1000px;
-    width: 100%;
     padding: 80px 0 200px 0;
     margin: 0 auto;
 }
@@ -60,19 +59,17 @@ h1 {
 }
 
 .button-header {
-    margin: 12px;
     padding: 12px;
     color: white;
     background-color: black;
     border: 4px solid black;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
-    margin-left: -10px;
+    margin: 12px 12px 12px -10px;
     font-size: 10px;
 }
 
 .input-header {
-    margin: 12px;
     background-color: transparent;
     border: 2px solid black;
     border-bottom-left-radius: 25px;
@@ -83,7 +80,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 10px;
-    margin-right: -10px;
+    margin: 12px -10px 12px 12px;
     padding: 13px;
     width: 200px;
 }
@@ -101,6 +98,7 @@ h1 {
 /*///////////// 3.2 Testimonial /////////////*/
 
 /*///////////// 3.3 Support /////////////*/
+
 h2 {
     margin: 40px auto;
     font-size: 20px;
@@ -111,10 +109,7 @@ blockquote {
     text-align: left;
     border: 2px white;
     border-radius: 10px;
-    padding-top: 35px;
-    padding-left: 90px;
-    padding-bottom: 20px;
-    padding-right: 60px;
+    padding: 35px 60px 20px 90px;
     width: 700px;
     margin: 40px auto;
     font-size: 10px;
@@ -163,8 +158,7 @@ blockquote {
     width: 700px;
     background-size: cover;
     border-radius: 10px;
-    margin: 15px;
-    margin-bottom: 10px;
+    margin: 15px 15px 10px;
 }
 
 .caption-foto {
