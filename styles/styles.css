@@ -59,7 +59,7 @@ h1 {
     margin: 15px 0 15px 0;
 }
 
-.button-header-section {
+.button-header {
     margin: 12px;
     padding: 12px;
     color: white;
@@ -90,8 +90,8 @@ h1 {
 
 ::placeholder {
     color: black;
-
 }
+
 .domeinnaam-registreren {
     color: #1C2B32;
     font-weight: 400;
