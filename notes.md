@@ -10,3 +10,6 @@ max-width: 1000px;
 position: absolute;
 left: calc(50% - 500px);
 bottem 0;
+
+* Ik heb de max width verkeerd begrepen en dus heb ik hem(max-width: 1000px) bij de main section gezet. Anders doet ie de afbeelding ook niet groter maken dan dat, natuurlijk.
+* 

@@ -22,7 +22,7 @@ Table of Contents:
 
 main {
     text-align: center;
-    width: 1000px;
+    max-width: 1000px;
     align-content: center;
     margin: 0 auto;
 }
@@ -47,11 +47,12 @@ body {
     background-size: cover;
     position: relative;
     text-align: center;
-    max-width: 1000px;
     padding: 80px 0 200px 0;
     margin: 0 auto;
 }
-
+/* Nu moet ik aan de slag met alles netjes neerzetten: header image: {.......}, header button: {.......} etc.
+Gebruik ook de margin auto en
+ */
 h1 {
     font-size: 80px;
     font-weight: bold;
