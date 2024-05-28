@@ -127,7 +127,7 @@ blockquote {
     width: 20px;
 }
 
-.jane-and-john {
+.image-jane-and-john {
     position: relative;
     left: 0;
     height: 44px;
@@ -155,7 +155,7 @@ blockquote {
 
 .foto-callcenter {
     align-content: center;
-    width: 700px;
+    width: 70%;
     background-size: cover;
     border-radius: 10px;
     margin: 15px 15px 10px;
